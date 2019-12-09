@@ -1,0 +1,19 @@
+body
+    {
+    width: 100%;
+    height: 100%;
+    background-image:url(https://images.wallpaperscraft.com/image/glass_water_drops_135669_1280x720.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    }
+
+/* ========== DEMO STYLES ========== */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+

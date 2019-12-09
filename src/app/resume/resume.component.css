@@ -1,0 +1,128 @@
+* {box-sizing:border-box}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaNhSzLjMO-_UbWUA27u3gr0YyAAc5cQwrw8XJ1wf_ekHGEvSpdQ&s");
+      background-size: cover;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #1e7388;
+      padding: 25px;
+    }
+
+
+body{
+  background-color:rgb(196, 128, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+  font-size:20px;
+  line-height:18px;
+  color:rgb(15, 196, 228);
+}
+
+
+
+strong {
+  letter-spacing: 1px;
+}
+
+
+
+
+
+.left-nav ul li a:hover, .left-nav ul li .current {
+    background-color: #fff;
+    color: #000;
+}
+
+#main-wrapper {
+    float: left;
+    margin-left: 18%;
+    width: 82%;
+}
+
+
+.welcome {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 35px auto 0;
+}
+
+.features {
+    margin-top: 50px;
+}
+
+.features ul li {
+    list-style: square outside none;
+    margin-bottom: 15px;
+}
+
+.features > ul {
+    padding-left: 18px;
+}
+
+.author {
+    border-bottom: 1px solid rgb(185, 83, 83);
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+.author-info {
+    font-size:18px;
+    line-height: 28px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.section-content {
+    font-size: 40px;
+    line-height: 25px;
+}
+
+.section-content li {
+    margin-bottom: 15px;
+}
+
+.section-content a:hover {
+    text-decoration: underline;
+}
+
+.script-source li {
+    list-style: square outside none;
+    margin-bottom: 10px;
+}
+
+#twitter-feed li,
+#flickr li {
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+#twitter-feed img {
+    border: 1px solid#ddd;
+    box-shadow: 2px 3px 3px #ddd;
+    height: auto;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+h3{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 62px;
+            margin-bottom: 0;
+            color:aqua
+}
+.work {
+  width: 1200px;
+  height: 1200px;
+  
+}
+.R{
+  
+  margin-left: 150px;
+}
