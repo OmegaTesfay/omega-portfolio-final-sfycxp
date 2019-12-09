@@ -1,19 +1,25 @@
+
 .infobox {
   background-color: rgba(255, 255, 0, 0);
-
-  margin-top: 130px;
+  
+  margin-top: 30px;
   margin-right: 70px;
-  color:antiquewhite
-
+  color:rgba(241, 146, 22, 0.829);
+  padding: 10px;
+  font-size: 20px;
+  width: auto;
 }
 
 .a {
   float: right;
   margin-right: 570px;
-  margin-top: 10px;
-  position: relative;
+  margin-top: 30px;
+  position: absolute;
 }
 .b {
-  float: left;
-  margin-left: 300px;
+  float: right;
+  margin-left: 20px;
 }
+
+
+
