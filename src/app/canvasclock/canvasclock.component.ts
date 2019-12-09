@@ -1,18 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  selector: 'app-canvasclock',
+  templateUrl: './canvasclock.component.html',
+  styleUrls: ['./canvasclock.component.css']
 })
-export class ContactComponent implements OnInit {
+export class CanvasclockComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
   }
-
-canvasJavascript() {
+  canvasJavascript() {
 
  var canvas = document.getElementById("itc111_canvas");
 
@@ -181,3 +180,4 @@ function drawHand(ctx, pos, length, width) {
  
 
   }
+

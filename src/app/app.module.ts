@@ -10,6 +10,7 @@ import { BiographyComponent } from './biography/biography.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { QuizzesComponent } from './quizzes/quizzes.component';
+import { CanvasclockComponent } from './canvasclock/canvasclock.component';
 
 @NgModule({
   imports: [
@@ -22,8 +23,9 @@ import { QuizzesComponent } from './quizzes/quizzes.component';
      {path: 'navbar', component: NavBarComponent},
      {path: 'quizzes', component: QuizzesComponent},
      {path: 'resume', component: ResumeComponent},
+     {path: 'canvasclock', component: CanvasclockComponent},
      ])],
-  declarations: [ AppComponent, HelloComponent, NavBarComponent, BiographyComponent, ResumeComponent, ContactComponent, QuizzesComponent ],
+  declarations: [ AppComponent, HelloComponent, NavBarComponent, BiographyComponent, ResumeComponent, ContactComponent, QuizzesComponent, CanvasclockComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
